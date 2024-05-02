@@ -1,4 +1,4 @@
-# Task List Manager API
+# Task List API
 
 ## Descrição
 Projeto Task List Manager desenvolvido como desafio da Diel. O aplicativo consiste em um gerenciador de tarefas, com funcionalidades para listar todas as tarefas, obter detalhes de uma tarefa específica, criar, atualizar e excluir tarefas.
