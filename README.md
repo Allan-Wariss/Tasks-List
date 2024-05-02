@@ -1,7 +1,7 @@
 # Task List API
 
 ## Descrição
-Projeto Task List Manager desenvolvido como desafio da Diel. O aplicativo consiste em um gerenciador de tarefas, com funcionalidades para listar todas as tarefas, obter detalhes de uma tarefa específica, criar, atualizar e excluir tarefas.
+Projeto Task List Manager desenvolvido como desafio da Diel. O aplicativo consiste em um gerenciador de tarefas, com funcionalidades para listar todas as tarefas, obter detalhes de uma tarefa específica, criar, atualizar, pesquisar pelo título e excluir tarefas.
 
 ## Tecnologias Utilizadas
 - [Spring Boot](https://spring.io/projects/spring-boot) - Framework para a criação de aplicativos Java.
