@@ -20,27 +20,31 @@ public class TaskController {
     @Autowired
     private TaskService taskService;
 
-    
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @PostMapping("/add")
     public ResponseEntity<String> addTask(@RequestBody TaskRequestDTO task){
         return taskService.addTask(task);
     }
 
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @PutMapping("/edit/{taskId}")
     public ResponseEntity<String> editTask(@PathVariable String taskId, @RequestBody TaskRequestDTO task){
         return taskService.editTask(taskId, task);
     }
 
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @DeleteMapping("/delete/{taskId}")
     public ResponseEntity<String> deleteTask(@PathVariable String taskId){
         return taskService.deleteTask(taskId);
     }
 
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @GetMapping("/find/{title}")
     public List<Task> findTaskByTitle(@PathVariable String title){
         return taskService.findTaskByTitle(title);
     }
 
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @GetMapping("/findAll")
     public List<Task> findAll(){
         return taskRepository.findAll();
